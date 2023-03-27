@@ -37,6 +37,9 @@ main {
     height: 500px;
     border-radius: 20px;
     box-sizing: 0px 0px 10px rgb(0, 0, 0, 0.450);
+
+    transition: width .2s, height .2s;
+    transition-timing-function: ease;
 }
 
 .login > .imagem {
@@ -50,5 +53,4 @@ main {
 .login > .formulario {
     display: block;
     padding: 10px;
-
 }
