@@ -58,3 +58,8 @@ main {
 .text {
     padding: 10px;
 }
+
+.text > h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}

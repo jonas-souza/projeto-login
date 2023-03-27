@@ -31,6 +31,10 @@ Grandes telas: acima de 1200px
         float: right;
         width: 70%;
     }
+
+    .text {
+        padding: 10px;
+    }
 }
 
 @media screen and (min-width: 992px) {
@@ -44,13 +48,17 @@ Grandes telas: acima de 1200px
     }
 
     .login > .imagem {
-        float: left;
+        float: right;
         width: 50%;
         height: 100%;
     }
 
     .login > .formulario {
-        float: right;
+        float: left;
         width: 50%;
+    }
+
+    .text {
+        padding: 10px;
     }
 }
